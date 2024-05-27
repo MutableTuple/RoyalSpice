@@ -27,6 +27,7 @@ const ActionButton = styled.div`
   justify-content: center;
   background: #fff;
   cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
 
 const ActionButtonWide = styled.div`
@@ -39,6 +40,7 @@ const ActionButtonWide = styled.div`
   justify-content: center;
   background: #fff;
   cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
 const StyledUl = styled.ul`
   display: flex;

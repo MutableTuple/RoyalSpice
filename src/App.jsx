@@ -8,6 +8,8 @@ import { Toaster } from "react-hot-toast";
 import DeliveryBanner from "./features/DeliveryBanner";
 import Sides from "./features/Sides";
 import Specialities from "./features/Specialities";
+import ReviewUs from "./features/ReviewUs";
+import Footer from "./features/Footer";
 
 const StyledMain = styled.main``;
 
@@ -23,6 +25,8 @@ function App() {
       <DeliveryBanner />
       <Sides />
       <Specialities />
+      <ReviewUs />
+      <Footer />
     </StyledMain>
   );
 }
